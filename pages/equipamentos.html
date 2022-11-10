@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../css/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/equipamentos.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon-32x32.ico"
+      type="image/x-icon"
+    />
+    <script defer src="../simple-anime.js"></script>
+    <title>Hawk</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-center">
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <figure class="d-flex m-4 justify-content-center">
+              <a href="../index.html"
+                ><img src="../images/logo.png" alt=""
+              /></a>
+            </figure>
+            <ul class="navbar-nav">
+              <li class="nav-item lista">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/home.html"
+                  >Introdução</a
+                >
+              </li>
+              <li class="nav-item lista">
+                <a class="nav-link" href="./registros.html">Registros</a>
+              </li>
+              <li class="nav-item lista">
+                <a class="nav-link" href="#">Equipamentos</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler m-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#fff"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                /></svg
+            ></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-spacing">
+      <div class="d-flex justify-content-center principalEquip">
+        <img src="../images/Equipamentos.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="../images/arduino.png" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Arduino</h5>
+                <p class="card-text">
+                  O arduino é o cérebro de tudo, usado para aplicar a
+                  programação do carrinho e fazer as ligações de energia,
+                  cabeamento do carrinho, a vida do carrinho está no arduino.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../images/ponth.webp" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Ponte H</h5>
+                <p class="card-text">
+                  A ponte H faz a ligação dos pinos nos motores, e transmite os
+                  sinais para o arduino e também a energia necessária para que o
+                  motor funcione.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="../images/chassijpg.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-color">
+                <h5 class="card-title">Chassi</h5>
+                <p class="card-text">
+                  O Chassi nada mais é do que apenas o suporte de todos os
+                  componentes, usados no carrinho, rodas, motores, sensores e
+                  outros...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="../images/motores.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-color">
+                <h5 class="card-title">Motores</h5>
+                <p class="card-text">
+                  Os motores tem por finalidade trabalhar junto com as rodas,
+                  fazendo o giro e captando dados da programação.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../images/proto.webp" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Protoboard</h5>
+                <p class="card-text">
+                  A protoboard nos da a capacidade de fazer várias ligações em
+                  diversos pontos, podendo então utilizar mais ligações assim
+                  que necessário.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../images/bateria.jpg" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Bateria 12V</h5>
+                <p class="card-text">
+                  A bateria 12V é necessária para que nosso carrinho ganhe vida
+                  e possa andar livremente sem um cabo, exeterno atraplhando.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../images/servo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Servo</h5>
+                <p class="card-text">
+                  O servo tem a funcionalidade de girar do 0 até os 180 graus,
+                  nisso programados um giro de 3x, para conseguir fazer o que
+                  planejamos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../images/sensor.webp" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Sensor Ultrassônico</h5>
+                <p class="card-text">
+                  O sensor ultrassônico tem por função emitir 3 sinais, direita,
+                  frente e esquerda, nesses o carrinho tem pela programação
+                  aplicada no arduino, a tomada de decisões.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="../images/jumperes.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-color">
+                <h5 class="card-title">Cabos com Jumperes</h5>
+                <p class="card-text">
+                  Os cabos com Jumperes são essências, na funcionalidade do
+                  carrinho, pois, utilizamos em tudo para fazer as ligações
+                  necessárias com a protoboard, arduino, ponteh, servo, motores
+                  e sensores. Existem dois tipos de cabos, os jumperes, macho e
+                  fêmea e também de lados iguais. Assim podendo utilizar em
+                  diversas ocasiões ou problemas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="../images/camera.webp" class="card-img-top" alt="..." />
+              <div class="card-body card-color">
+                <h5 class="card-title">Câmera</h5>
+                <p class="card-text">
+                  A câmera do nosso projeto tem a funcionalidade de emitir
+                  imagens, de onde o carrinho está e se movendo, podendo então,
+                  ter uma ampla visão do que está acontecendo no local em que
+                  ele está, sendo outro ponto de inteligência do nosso carrinho.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container d-flex justify-content-center p-4">
+      <iframe
+        width="1100"
+        height="600"
+        src="https://www.youtube.com/embed/_8wrdzdZ-cU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="container d-flex justify-content-center p-4">
+      <iframe
+        width="1100"
+        height="600"
+        src="https://www.youtube.com/embed/qGGvWcq6cN8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 footer-logo">
+            <img src="../images/logo.png" alt="" />
+          </div>
+          <div class="col-4 footer-txt">
+            <p style="color: white">+55 11 98139-4226</p>
+          </div>
+          <div class="col-4 footer-telefone">
+            <p style="color: white">UNASP-SP 9999999</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 font-footer">
+            <p style="color: white">HAWK, Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"
+  ></script>
+</html>

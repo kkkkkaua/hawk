@@ -1,0 +1,274 @@
+body {
+  background: #000;
+}
+
+.imagens-registros {
+  margin-block: 101px;
+}
+
+.radiuss {
+  border-radius: 42px;
+}
+
+.slide {
+  margin-bottom: 236px;
+}
+
+.registross {
+  max-width: 100%;
+}
+
+.p-alguma {
+  text-align: right;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  color: #f5f5f5;
+}
+
+.margin-aaa {
+  margin-top: 45px;
+}
+
+.p-duvida {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  text-align: right;
+
+  color: #f5f5f5;
+}
+
+.foto-duvida {
+  margin-bottom: 100px;
+}
+
+input,
+textarea {
+  margin-bottom: 23px;
+  border: 1px solid #fff;
+  border-radius: 42px;
+  width: 598px;
+  height: 77px;
+  text-align: left;
+  color: white;
+  background: transparent;
+}
+
+input::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 139.4%;
+  padding-left: 47px;
+  padding-block: 17px;
+  color: white;
+}
+
+.input-style {
+  border: 3px solid #fff;
+  border-radius: 42px;
+  background: transparent;
+  color: white;
+}
+
+.input-style:focus {
+  background: transparent;
+}
+
+textarea {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.alguma-botao {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 42px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #f5f5f5;
+  padding: 11px 70px;
+  transition: 0.3s;
+}
+
+.alguma-botao:hover {
+  background: white;
+  color: black;
+}
+
+.alguma-duvida {
+  margin-bottom: 169px;
+}
+
+@media (max-width: 804px) {
+  .foto-duvida,
+  .imagens-registros {
+    height: 45px;
+    width: 320px;
+  }
+
+  .imagens-obj {
+    height: 120px;
+  }
+
+  .foto-duvida {
+    margin-left: 145px;
+  }
+
+  input::placeholder {
+    padding-left: 9px;
+    padding-block: 17px;
+  }
+
+  .p-duvida {
+    display: none;
+  }
+}
+
+.semanaTrab {
+  max-width: 100%;
+}
+
+.como-podemos {
+  white-space: nowrap;
+  top: -42px;
+  left: 60px;
+  color: #808080;
+  font-size: 24px;
+}
+
+@media (max-width: 505px) {
+  .foto-duvida {
+    display: block !important;
+    margin-block: 20px;
+    max-width: 100%;
+  }
+  .foto-duvida img {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 804px) and (max-width: 991px) {
+  .foto-duvida {
+    height: 70px;
+    margin-left: -300px;
+  }
+
+  input::placeholder {
+    padding-left: 3px;
+    padding-block: 17px;
+    font-size: 18px;
+  }
+
+  .p-duvida {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .como-podemos {
+    left: 20px;
+  }
+
+  .neg {
+    margin-top: -30px;
+  }
+}
+
+.item2 img {
+  object-fit: cover;
+}
+
+@media (min-width: 700px) and (max-width: 991px) {
+  .como-podemos {
+    margin-left: -40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 803px) {
+  input::placeholder {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 804px) {
+  .imagens-obj {
+    height: 200px;
+
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .como-podemos {
+    margin-left: -3px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 699px) {
+  .como-podemos {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 505px) {
+  .foto-duvida {
+      margin-top: -50px;
+      margin-left: 15px;
+      margin-block-end:  5rem;
+}
+
+@media (max-width: 525px) {
+  .footer-telefone {
+    display: none;
+  }
+
+  .footer-txt {
+    margin: auto auto;
+  }
+}
+
+@media (min-width: 995px) and (max-width: 1199px) {
+  .footer-telefone p::before,
+  .footer-txt p::before {
+    display: none;
+  }
+}
+
+@media (min-width: 804px) and (max-width: 804px) {
+  .foto-duvida {
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    height: 50px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 803px) {
+  .foto-duvida {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 459px) and (max-width: 505px) {
+  .foto-duvida {
+    display: block;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 459px) and (max-width: 505px) {
+  .alguma-botao {
+    font-size: 20px;
+  }
+}
