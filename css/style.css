@@ -162,3 +162,6 @@ a::after:focus {
   }
 }
 
+.sem-focus:focus {
+  display: none;
+}
