@@ -18,7 +18,7 @@ body {
   background-color: white;
 }
 
-.card-body{
+.card-body {
   padding-block: 0.75rem;
 }
 
@@ -44,4 +44,28 @@ body {
 
 .card-text {
   color: black;
+}
+
+.a-valor {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.a-valor:hover {
+  color: black;
+}
+
+.a-valor::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  background: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.a-valor:hover::after {
+  width: 100%;
 }
