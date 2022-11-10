@@ -12,7 +12,6 @@ body {
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
-  overflow-y: hidden;
 }
 
 body::before {
