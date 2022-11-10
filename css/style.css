@@ -175,3 +175,23 @@ a::after:focus {
 .sem-focus:focus {
   display: none;
 }
+
+@media (max-width: 411px) {
+  .footer-logo img {
+    height: 65px;
+  }
+
+  .footer-txt {
+    gap: 10px;
+  }
+
+  .footer-section {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 385px) {
+  .footer-txt {
+    margin-left: -4px;
+  }
+}

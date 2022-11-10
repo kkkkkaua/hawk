@@ -42,7 +42,6 @@ nav::after {
   padding-block-start: 3.5rem;
 }
 
-
 .linked-s a {
   background-color: transparent;
   border: 1px solid white;
@@ -200,6 +199,7 @@ nav::after {
 
 .footer-section {
   background: #222021;
+  overflow-x: hidden;
 }
 
 .footer-logo {
@@ -267,8 +267,6 @@ nav::after {
   text-align: end;
 }
 
-
-
 @media (max-width: 991px) {
   .paragrph-group {
     padding-block-start: 5rem;
@@ -301,7 +299,7 @@ nav::after {
   .imgs-sliders img {
     max-width: 100%;
     height: 300px;
-}
+  }
 
   .imagens-sobre {
     height: 29px;
@@ -362,7 +360,6 @@ img.img-group {
   margin-top: 2rem !important;
 }
 
-
 @media (max-width: 505px) {
   .foto-duvida {
     margin-top: -100px;
@@ -385,8 +382,6 @@ img.img-group {
     display: none;
   }
 }
-
-
 
 @media (min-width: 459px) and (max-width: 767px) {
   .paragrph-group {
