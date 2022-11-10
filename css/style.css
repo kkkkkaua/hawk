@@ -190,8 +190,8 @@ a::after:focus {
   }
 }
 
-@media (max-width: 385px) {
-  .footer-txt {
-    margin-left: -4px;
+@media (max-width: 408px) {
+  .footer-section .footer-txt {
+    margin-left: 20px;
   }
 }

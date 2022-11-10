@@ -246,7 +246,7 @@ nav::after {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 139.4%;
   color: #f5f5f5;
 }
@@ -385,7 +385,7 @@ img.img-group {
 
 @media (min-width: 459px) and (max-width: 767px) {
   .paragrph-group {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
