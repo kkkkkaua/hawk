@@ -69,3 +69,7 @@ body {
 .a-valor:hover::after {
   width: 100%;
 }
+
+.sem-detalhe::after {
+  display: none;
+}

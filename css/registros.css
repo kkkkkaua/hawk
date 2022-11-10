@@ -223,52 +223,53 @@ textarea {
 
 @media (max-width: 505px) {
   .foto-duvida {
-      margin-top: -50px;
-      margin-left: 15px;
-      margin-block-end:  5rem;
-}
-
-@media (max-width: 525px) {
-  .footer-telefone {
-    display: none;
+    margin-top: -50px;
+    margin-left: 15px;
+    margin-block-end: 5rem;
   }
 
-  .footer-txt {
-    margin: auto auto;
+  @media (max-width: 525px) {
+    .footer-telefone {
+      display: none;
+    }
+
+    .footer-txt {
+      margin: auto auto;
+    }
   }
-}
 
-@media (min-width: 995px) and (max-width: 1199px) {
-  .footer-telefone p::before,
-  .footer-txt p::before {
-    display: none;
+  @media (min-width: 995px) and (max-width: 1199px) {
+    .footer-telefone p::before,
+    .footer-txt p::before {
+      display: none;
+    }
   }
-}
 
-@media (min-width: 804px) and (max-width: 804px) {
-  .foto-duvida {
-    margin: 0 auto;
-    margin-bottom: 40px;
+  @media (min-width: 804px) and (max-width: 804px) {
+    .foto-duvida {
+      margin: 0 auto;
+      margin-bottom: 40px;
 
-    height: 50px;
+      height: 50px;
+    }
   }
-}
 
-@media (min-width: 769px) and (max-width: 803px) {
-  .foto-duvida {
-    margin-bottom: 50px;
+  @media (min-width: 769px) and (max-width: 803px) {
+    .foto-duvida {
+      margin-bottom: 50px;
+    }
   }
-}
 
-@media (min-width: 459px) and (max-width: 505px) {
-  .foto-duvida {
-    display: block;
-    margin-bottom: 70px;
+  @media (min-width: 459px) and (max-width: 505px) {
+    .foto-duvida {
+      display: block;
+      margin-bottom: 70px;
+    }
   }
-}
 
-@media (min-width: 459px) and (max-width: 505px) {
-  .alguma-botao {
-    font-size: 20px;
+  @media (min-width: 459px) and (max-width: 505px) {
+    .alguma-botao {
+      font-size: 20px;
+    }
   }
 }
